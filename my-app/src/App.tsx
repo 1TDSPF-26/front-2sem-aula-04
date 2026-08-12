@@ -1,4 +1,6 @@
-//Vamos criar um compornete funcional
+/*Vamos criar um compornete funcional */
+
+import Kauan from "./components/Kauan";
 
 function App() {
   return (
@@ -6,11 +8,9 @@ function App() {
       <h1>Olá, mundo!</h1>
       <p>Como vai vc ?</p>
       <h2>Direitos reservados</h2>
+        <Kauan />
     </div>
   );
 }
-
-const nome = "João";
-console.log(nome);
 
 export default App; 
