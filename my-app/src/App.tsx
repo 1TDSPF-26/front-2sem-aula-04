@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-//Vamos criar um componente funcional
-
-export default function App() {
-
-  return(
-    <div>
-      <h1>Olá Mundo!</h1>
-=======
 
 import Ale from "./components/Nome/Ale";
 import Andrew from "./components/Nome/Andrew";
@@ -27,7 +18,6 @@ export default function App() {
       <Ga/>
       <Luiz/>
       <Pedro/>
->>>>>>> b25378b15e38cda5e3e978b7e01c7748d9459a60
     </div>
   );
 }
