@@ -1,31 +1,11 @@
-<<<<<<< HEAD
-import Luiz from "./components/Nome/LuizEduardo";
 
-/* Vamos criar um componente funcional */
-
-import Ale from "./components/Nome/Ale";
-import Andrew from "./components/Nome/Andrew";
-import Pedro from "./components/Nome/Pedro";
-
-export default function App() {
-  return (
-    <div>
-      <h1>ola mundo!</h1>
-      <Luiz/>
-      <h1>Olá mundo</h1>
-      <Pedro />
-      <Andrew />
-      <Ale />
-    </div>
-  );
-}
-
-=======
+import Manu from "./components/Nome/Manu";
 export default function App() {
   return(
     <div>
       <h1>Olá mundo</h1>
+      <Manu/>
     </div>
   );
 }
->>>>>>> a069a2e (feat : estrutura do primeiro componente)
+
