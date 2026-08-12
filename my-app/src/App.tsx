@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Luiz from "./components/Nome/LuizEduardo";
 
 /* Vamos criar um componente funcional */
@@ -19,3 +20,12 @@ export default function App() {
   );
 }
 
+=======
+export default function App() {
+  return(
+    <div>
+      <h1>Olá mundo</h1>
+    </div>
+  );
+}
+>>>>>>> a069a2e (feat : estrutura do primeiro componente)
