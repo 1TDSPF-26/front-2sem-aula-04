@@ -1,23 +1,12 @@
+//Vamos criar um componente funcional
 
-import Ale from "./components/Nome/Ale";
-import Andrew from "./components/Nome/Andrew";
-import Enzo from "./components/Nome/Enzo";
-import Ga from "./components/Nome/Ga";
-import Luiz from "./components/Nome/LuizEduardo";
-import Manu from "./components/Nome/Manu";
-import Pedro from "./components/Nome/Pedro";
+import Ga from './components/Nome/Ga';
 
 export default function App() {
-  return(
-    <div>
-      <h1>Olá mundo</h1>
-      <Ale/>
-      <Andrew/>
-      <Manu/>
-      <Enzo/>
-      <Ga/>
-      <Luiz/>
-      <Pedro/>
-    </div>
-  );
+    return(
+        <div>
+            <h1>Meu primeiro componente</h1>
+            <Ga />
+        </div>
+    );
 }
